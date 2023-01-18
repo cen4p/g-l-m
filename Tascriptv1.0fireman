@@ -1,0 +1,128 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+
+local Window = Library.CreateLib("TA turhish armed forces script v1.0 fire man", "DarkTheme")
+
+local Tab = Window:NewTab("Main")
+
+local Section = Tab:NewSection("Teleports")
+
+Section:NewButton("Teleport civilian", "ButtonInfo", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1633.0354, 3.10000014, -362.262848, -1, 0, 0, 0, 1, 0, 0, 0, -1)
+end)
+
+Section:NewButton("teleport cabin", "ButtonInfo", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1596.79285, 3.10000014, -248.703522, -0.0223430116, 6.70264697e-08, -0.999750376, -9.57890922e-09, 1, 6.72572824e-08, 0.999750376, 1.10792486e-08, -0.0223430116)
+end)
+
+
+
+Section:NewButton("teleport cabin interior", "ButtonInfo", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1608.63184, 3.10000014, -244.967255, -0.0407330617, -6.50023466e-08, 0.999170065, 1.17632965e-07, 1, 6.98518718e-08, -0.999170065, 1.20380619e-07, -0.0407330617)
+end)
+
+
+
+Section:NewButton("teleport sm base", "ButtonInfo", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1494.38513, 3.16494608, -134.986328, 0.0255560596, -4.41245653e-08, 0.999673367, -6.96350924e-08, 1, 4.59191618e-08, -0.999673367, -7.0785859e-08, 0.0255560596)
+end)
+
+
+
+
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+
+
+
+local Tab = Window:NewTab("Main2")
+
+local Section = Tab:NewSection("Teleports2")
+
+
+Section:NewButton("teleport out", "ButtonInfo", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1626.52405, 3.10000014, -172.330475, -0.99898994, 9.53856087e-08, -0.0449343398, 9.53594324e-08, 1, 2.72622258e-09, 0.0449343398, -1.56144409e-09, -0.99898994)
+end)
+
+
+
+Section:NewButton("teleport OKB", "ButtonInfo", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(860.173889, 3.09999919, -252.283096, 0.999770582, -7.99877071e-08, 0.0214200281, 7.86533718e-08, 1, 6.31362838e-08, -0.0214200281, -6.14370421e-08, 0.999770582)
+end)
+
+Section:NewButton("teleport OKB base 1", "ButtonInfo", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(897.058594, 3.33608508, -340.838104, -0.995796084, 2.62997819e-08, 0.0915978849, 2.50128451e-08, 1, -1.51978217e-08, -0.0915978849, -1.28428077e-08, -0.995796084)
+end)
+
+Section:NewButton("teleport OKB base 2", "ButtonInfo", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(827.767944, 3.33608508, -336.903076, -0.998702347, 6.25234886e-09, 0.050927598, 5.51626922e-09, 1, -1.45940078e-08, -0.050927598, -1.42941392e-08, -0.998702347)
+end)
+
+local Tab = Window:NewTab("Main3")
+
+local Section = Tab:NewSection("Teleports3")
+
+
+Section:NewButton("teleport main venue", "ButtonInfo", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-31.0657482, 34.5078659, 623.960815, -0.999520481, -9.03769148e-09, -0.0309639331, -9.32011623e-09, 1, 8.97678198e-09, 0.0309639331, 9.26106569e-09, -0.999520481)
+end)
+
+Section:NewButton("teleport TSK room", "ButtonInfo", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-72.6711197, 34.9654045, 727.547485, 0.998263597, 0, -0.0589053184, 0, 1, 0, 0.0589053184, 0, 0.998263597)
+end)
+
+Section:NewButton("teleport officer room", "ButtonInfo", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(3.26626587, 34.9654045, 788.32843, 0.984780014, 0, -0.173805431, 0, 1, 0, 0.173805431, 0, 0.984780014)
+end)
+
+Section:NewButton("teleport secret room", "ButtonInfo", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-36.3412933, 37.9687309, 791.45459, 0.997072875, 0, -0.0764568001, 0, 1, 0, 0.0764568001, 0, 0.997072875)
+end)
+
+
+local Tab = Window:NewTab("Main4")
+
+local Section = Tab:NewSection("Teleport4")
+
+Section:NewButton("teleport cafe", "ButtonInfo", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-387.853668, 34.5223885, 168.155197, -0.998871267, 0, 0.0474988036, 0, 1, 0, -0.0474988036, 0, -0.998871267)
+end)
+
+
+Section:NewButton("teleport kk", "ButtonInfo", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-824.634094, 34.5079918, 70.2255249, 0.991110802, 0, -0.133039191, 0, 1, 0, 0.133039191, 0, 0.991110802)
+end)
+
+Section:NewButton("teleport kk base", "ButtonInfo", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-763.155334, 34.7936058, 40.5029297, -0.821102619, 0, -0.570780635, 0, 1, 0, 0.570780635, 0, -0.821102619)
+end)
+
+Section:NewButton("teleport as.iz", "ButtonInfo", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-288.087158, 3.29082179, -343.512665, 0.997725666, 0, -0.0674057752, 0, 1, 0, 0.0674057752, 0, 0.997725666)
+end)
+
+
+
+
+local Tab = Window:NewTab("Main5")
+
+local Section = Tab:NewSection("Teleport5")
+
+Section:NewButton("teleport as.iz 1", "ButtonInfo", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-315.479919, 3.29082179, -330.657227, -0.276145935, 0, -0.961115718, 0, 1, 0, 0.961115718, 0, -0.276145935)
+end)
+
+
+Section:NewButton("teleport as.iz 2", "ButtonInfo", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-316.500092, 3.29082179, -382.413849, 0.999405205, 0, -0.0344846882, 0, 1, 0, 0.0344846882, 0, 0.999405205)
+end)
+
+
+Section:NewButton("teleport prison", "ButtonInfo", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-244.744995, 3.29082179, -326.430084, -0.112504728, 0, -0.993651211, 0, 1, 0, 0.993651211, 0, -0.112504728)
+end)
+
+Section:NewButton("teleport prison 2", "ButtonInfo", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-219.101685, 3.29082179, -330.231171, -0.0127937123, 0, 0.999918163, 0, 1, 0, -0.999918163, 0, -0.0127937123)
+end)
+
+
+
