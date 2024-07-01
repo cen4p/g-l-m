@@ -6,8 +6,18 @@ local Tab = Window:NewTab("Main")
 
 local Section = Tab:NewSection("Teleports")
 
-Section:NewButton("Teleport civilian", "ButtonInfo", function()
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1633.0354, 3.10000014, -362.262848, -1, 0, 0, 0, 1, 0, 0, 0, -1)
+Section:NewButton("Change all numbers to 99999", "ButtonInfo", function()
+    local function changeNumbersTo99999(obj)
+        if obj:IsA("TextLabel") or obj:IsA("TextButton") or obj:IsA("TextBox") then
+            local newText = obj.Text:gsub("%d+", "99999")
+            obj.Text = newText
+        end
+        for _, child in pairs(obj:GetChildren()) do
+            changeNumbersTo99999(child)
+        end
+    end
+
+    changeNumbersTo99999(game.Players.LocalPlayer.PlayerGui)
 end)
 
 Section:NewButton("teleport cabin", "ButtonInfo", function()
